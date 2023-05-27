@@ -3,10 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ResponsiveCardComponent } from './components/responsive-card/responsive-card.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { CallToActionButtonComponent } from './components/call-to-action-button/call-to-action-button.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ResponsiveCardComponent,
+    HeaderComponent,
+    FooterComponent,
+    CallToActionButtonComponent
   ],
   imports: [
     BrowserModule,

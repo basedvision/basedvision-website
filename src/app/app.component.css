@@ -1,0 +1,30 @@
+.title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.responsive-card-container {
+    margin: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.call-to-action-button-container {
+    margin: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.call-to-action-button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
