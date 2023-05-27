@@ -7,7 +7,7 @@ Main cannot be directly modified, so open a PR with any changes
 Before a PR gets merged in, make sure to build the app with the following command:
 
 ```
-ng build --output-path docs --base-href /basedvision-website/
+ng build --output-path docs --base-href /reducedlens-website/
 ```
 
 # Local Testing
