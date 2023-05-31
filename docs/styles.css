@@ -1,4 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100vh;
+}
+
+.body-separator-line {
+    margin: 5px 10px 0px;
+}
 
 
 /*# sourceMappingURL=styles.css.map*/
