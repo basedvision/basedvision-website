@@ -1,7 +1,28 @@
-.body-container {
+.page-wrapper-outer {
+    min-height: 100vh;
+    background-color: #fbfaf5;
+    background-image: url(https://dynamic.websimages.com/s/themes/bookstyle/v1.37/images/bg_body.png);
+}
+
+.page-wrapper-inner {
     width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: white;
+    border: solid;
+    border-width: 0px 1px;
+    border-color: #bdbdbd;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.25);
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+h2 {
+    margin: 0px;
 }
 
 .title-container {
@@ -13,6 +34,7 @@
 
 .responsive-card-container {
     margin-top: 50px;
+    margin-bottom: 50px;
     padding-left: 50px;
     padding-right: 50px;
     display: flex;
@@ -33,4 +55,11 @@
 .call-to-action-button {
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+footer {
+    position: fixed;
+    width: inherit;
+    bottom: 0;
+    background-color: white;
 }
