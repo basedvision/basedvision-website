@@ -7,6 +7,7 @@ import { ResponsiveCardComponent } from './components/responsive-card/responsive
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CallToActionButtonComponent } from './components/call-to-action-button/call-to-action-button.component';
+import { BlurBoxComponent } from './components/blur-box/blur-box.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CallToActionButtonComponent } from './components/call-to-action-button/
     ResponsiveCardComponent,
     HeaderComponent,
     FooterComponent,
-    CallToActionButtonComponent
+    CallToActionButtonComponent,
+    BlurBoxComponent
   ],
   imports: [
     BrowserModule,

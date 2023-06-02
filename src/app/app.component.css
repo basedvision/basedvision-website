@@ -30,6 +30,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 20px 0px;
 }
 
 .responsive-card-container {
@@ -42,19 +43,25 @@ h2 {
     justify-content: space-evenly;
 }
 
+#external-links-header {
+    text-align: center;
+    font-size: 24px;
+}
+
+.external-links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 .call-to-action-button-container {
-    margin: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
 .call-to-action-button {
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 footer {
